@@ -1,0 +1,1925 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-001",
+    "name": "Islamabad Weather Station",
+    "province": "Islamabad Capital Territory",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0479,
+     33.6844
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-002",
+    "name": "Lahore Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.3587,
+     31.5204
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-003",
+    "name": "Faisalabad Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.135,
+     31.4504
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-004",
+    "name": "Rawalpindi Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.0169,
+     33.5651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-005",
+    "name": "Multan Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.5249,
+     30.1575
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-006",
+    "name": "Gujranwala Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.1945,
+     32.1877
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-007",
+    "name": "Sialkot Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.5229,
+     32.4945
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-008",
+    "name": "Bahawalpur Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.6836,
+     29.3956
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-009",
+    "name": "Sargodha Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.6711,
+     32.0836
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-010",
+    "name": "Sahiwal Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.1114,
+     30.6682
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-011",
+    "name": "Jhang Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.3181,
+     31.2681
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-012",
+    "name": "Gujrat Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.0789,
+     32.5731
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-013",
+    "name": "Sheikhupura Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.985,
+     31.7167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-014",
+    "name": "Kasur Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.45,
+     31.1187
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-015",
+    "name": "Okara Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.4458,
+     30.8081
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-016",
+    "name": "Dera Ghazi Khan Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.6455,
+     30.0489
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-017",
+    "name": "Rahim Yar Khan Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.2952,
+     28.4202
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-018",
+    "name": "Mianwali Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.537,
+     32.5839
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-019",
+    "name": "Bhakkar Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.0654,
+     31.627
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-020",
+    "name": "Jhelum Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7257,
+     32.9425
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-021",
+    "name": "Chakwal Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.863,
+     32.9328
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-022",
+    "name": "Attock Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.3609,
+     33.766
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-023",
+    "name": "Murree Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.3943,
+     33.907
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-024",
+    "name": "Layyah Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.9428,
+     30.9693
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-025",
+    "name": "Muzaffargarh Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.1933,
+     30.0703
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-026",
+    "name": "Khanewal Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.9321,
+     30.3017
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-027",
+    "name": "Vehari Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.3489,
+     30.0453
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-028",
+    "name": "Bahawalnagar Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.2536,
+     29.9984
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-029",
+    "name": "Narowal Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.873,
+     32.102
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-030",
+    "name": "Hafizabad Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.688,
+     32.0709
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-031",
+    "name": "Toba Tek Singh Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.4826,
+     30.9709
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-032",
+    "name": "Pakpattan Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.3894,
+     30.3436
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-033",
+    "name": "Lodhran Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.6324,
+     29.5393
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-034",
+    "name": "Mandi Bahauddin Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.4917,
+     32.5861
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-035",
+    "name": "Khushab Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.3525,
+     32.2978
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-036",
+    "name": "Rajanpur Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.3302,
+     29.1044
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-037",
+    "name": "Chiniot Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.9822,
+     31.7292
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-038",
+    "name": "Nankana Sahib Weather Station",
+    "province": "Punjab",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.706,
+     31.45
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-039",
+    "name": "Karachi Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.0011,
+     24.8607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-040",
+    "name": "Hyderabad Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.3578,
+     25.396
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-041",
+    "name": "Sukkur Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.8574,
+     27.7052
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-042",
+    "name": "Larkana Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.2123,
+     27.559
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-043",
+    "name": "Nawabshah Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.41,
+     26.2442
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-044",
+    "name": "Mirpur Khas Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.0111,
+     25.5276
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-045",
+    "name": "Jacobabad Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.4514,
+     28.2769
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-046",
+    "name": "Shikarpur Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.6382,
+     27.9556
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-047",
+    "name": "Khairpur Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.7592,
+     27.5295
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-048",
+    "name": "Thatta Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.9239,
+     24.7461
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-049",
+    "name": "Badin Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.837,
+     24.656
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-050",
+    "name": "Dadu Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.775,
+     26.7319
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-051",
+    "name": "Umerkot Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.7362,
+     25.3614
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-052",
+    "name": "Mithi Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.7973,
+     24.7371
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-053",
+    "name": "Sanghar Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.9481,
+     26.0469
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-054",
+    "name": "Ghotki Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.3158,
+     28.006
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-055",
+    "name": "Kashmore Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.5835,
+     28.4326
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-056",
+    "name": "Jamshoro Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.28,
+     25.4281
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-057",
+    "name": "Tando Allahyar Weather Station",
+    "province": "Sindh",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.717,
+     25.46
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-058",
+    "name": "Peshawar Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.5249,
+     34.0151
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-059",
+    "name": "Abbottabad Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.2215,
+     34.1463
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-060",
+    "name": "Mardan Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.0451,
+     34.198
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-061",
+    "name": "Mingora Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.36,
+     34.7717
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-062",
+    "name": "Kohat Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.4414,
+     33.5869
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-063",
+    "name": "Bannu Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.6056,
+     32.9889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-064",
+    "name": "Dera Ismail Khan Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.9019,
+     31.8626
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-065",
+    "name": "Mansehra Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.2,
+     34.3333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-066",
+    "name": "Swabi Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.47,
+     34.12
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-067",
+    "name": "Charsadda Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.7308,
+     34.1453
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-068",
+    "name": "Nowshera Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.9747,
+     34.0153
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-069",
+    "name": "Chitral Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.7864,
+     35.8518
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-070",
+    "name": "Dir Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.877,
+     35.207
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-071",
+    "name": "Haripur Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.933,
+     33.994
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-072",
+    "name": "Malakand Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.93,
+     34.565
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-073",
+    "name": "Parachinar Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.1,
+     33.8996
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-074",
+    "name": "Hangu Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.059,
+     33.532
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-075",
+    "name": "Karak Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.093,
+     33.1163
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-076",
+    "name": "Lakki Marwat Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.912,
+     32.607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-077",
+    "name": "Tank Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     70.383,
+     32.217
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-078",
+    "name": "Daggar Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.49,
+     34.51
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-079",
+    "name": "Besham Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.88,
+     34.926
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-080",
+    "name": "Batagram Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.02,
+     34.68
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-081",
+    "name": "Kalam Weather Station",
+    "province": "Khyber Pakhtunkhwa",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.58,
+     35.49
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-082",
+    "name": "Quetta Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.975,
+     30.1798
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-083",
+    "name": "Gwadar Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     62.3254,
+     25.1264
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-084",
+    "name": "Turbat Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     63.0544,
+     26.0012
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-085",
+    "name": "Khuzdar Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.6167,
+     27.8
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-086",
+    "name": "Zhob Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.449,
+     31.341
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-087",
+    "name": "Loralai Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.5979,
+     30.3705
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-088",
+    "name": "Sibi Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.8773,
+     29.543
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-089",
+    "name": "Chaman Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.459,
+     30.921
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-090",
+    "name": "Dalbandin Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     64.41,
+     28.89
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-091",
+    "name": "Panjgur Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     64.1,
+     26.97
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-092",
+    "name": "Nokkundi Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     62.75,
+     28.8167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-093",
+    "name": "Kalat Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.59,
+     29.026
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-094",
+    "name": "Pasni Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     63.471,
+     25.263
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-095",
+    "name": "Jiwani Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     61.748,
+     25.05
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-096",
+    "name": "Ormara Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     64.636,
+     25.21
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-097",
+    "name": "Uthal Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.62,
+     25.81
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-098",
+    "name": "Hub Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.915,
+     25.045
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-099",
+    "name": "Dera Murad Jamali Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.223,
+     28.546
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-100",
+    "name": "Barkhan Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.525,
+     29.897
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-101",
+    "name": "Kohlu Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     69.254,
+     29.896
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-102",
+    "name": "Awaran Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.231,
+     26.456
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-103",
+    "name": "Mastung Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.85,
+     29.8
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-104",
+    "name": "Ziarat Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     67.726,
+     30.38
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-105",
+    "name": "Nushki Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     66.023,
+     29.553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-106",
+    "name": "Kharan Weather Station",
+    "province": "Balochistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.415,
+     28.58
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-107",
+    "name": "Gilgit Weather Station",
+    "province": "Gilgit-Baltistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.3142,
+     35.9208
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-108",
+    "name": "Skardu Weather Station",
+    "province": "Gilgit-Baltistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     75.6333,
+     35.2971
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-109",
+    "name": "Karimabad (Hunza) Weather Station",
+    "province": "Gilgit-Baltistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.65,
+     36.3167
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-110",
+    "name": "Chilas Weather Station",
+    "province": "Gilgit-Baltistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.098,
+     35.413
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-111",
+    "name": "Gupis Weather Station",
+    "province": "Gilgit-Baltistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.4,
+     36.165
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-112",
+    "name": "Astore Weather Station",
+    "province": "Gilgit-Baltistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.86,
+     35.338
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-113",
+    "name": "Khaplu Weather Station",
+    "province": "Gilgit-Baltistan",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.333,
+     35.159
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-114",
+    "name": "Muzaffarabad Weather Station",
+    "province": "Azad Jammu and Kashmir",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.4708,
+     34.37
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-115",
+    "name": "Mirpur Weather Station",
+    "province": "Azad Jammu and Kashmir",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.751,
+     33.148
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-116",
+    "name": "Kotli Weather Station",
+    "province": "Azad Jammu and Kashmir",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.902,
+     33.518
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-117",
+    "name": "Rawalakot Weather Station",
+    "province": "Azad Jammu and Kashmir",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.76,
+     33.858
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-118",
+    "name": "Bagh Weather Station",
+    "province": "Azad Jammu and Kashmir",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.776,
+     33.981
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-119",
+    "name": "Athmuqam Weather Station",
+    "province": "Azad Jammu and Kashmir",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.812,
+     34.566
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "station_id": "PK-120",
+    "name": "Bhimber Weather Station",
+    "province": "Azad Jammu and Kashmir",
+    "type": "Weather Station"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.075,
+     32.975
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="images/logo.png">
+<title>Pakistan Web GIS | Live Weather</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <img src="images/logo.png" alt="Pakistan Web GIS logo">
+      <div><strong>Pakistan Web GIS</strong><span>Live Weather &amp; Cities</span></div>
+    </div>
+    <div class="live-pill"><span class="status-dot" id="status-dot"></span><span id="weather-status-text">Loading live weather...</span></div>
+  </div>
+</header>
+
+<main class="page">
+
+  <!-- ============ HERO: selected location ============ -->
+  <section class="hero-grid">
+    <div class="hero t-night" id="hero">
+      <div class="hero-loc"><span class="pin">📍</span><h2 id="hero-name">Islamabad</h2></div>
+      <div class="hero-sub" id="hero-sub">—</div>
+      <div class="hero-temp" id="hero-temp">--°</div>
+      <div class="hero-cond" id="hero-cond">Loading...</div>
+      <div class="hero-hilo" id="hero-hilo"></div>
+      <div class="hero-feels" id="hero-feels"></div>
+      <div class="hero-summary" id="hero-summary"></div>
+      <div class="metrics" id="hero-metrics"></div>
+      <div class="hero-updated" id="hero-updated"></div>
+    </div>
+
+    <div class="hero-side">
+      <div class="glass pad">
+        <div class="card-title">Hourly forecast</div>
+        <div class="hourly" id="hourly"></div>
+      </div>
+      <div class="glass pad">
+        <div class="card-title">7-day forecast</div>
+        <div id="daily"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FORECAST CHART ============ -->
+  <section class="glass pad">
+    <div class="section-head">
+      <div><span class="badge">FORECAST</span><h2>48-hour outlook</h2>
+      <p id="forecast-sub">Temperature curve with chance of rain</p></div>
+    </div>
+    <div class="chart-box tall"><canvas id="forecast-chart"></canvas></div>
+  </section>
+
+  <!-- ============ NETWORK OVERVIEW ============ -->
+  <section class="glass pad">
+    <div class="section-head">
+      <div><span class="badge">LIVE NETWORK</span><h2>Pakistan Overview</h2>
+      <p id="station-summary">Current conditions across all weather stations</p></div>
+      <div class="refresh-box">
+        <span id="next-refresh" class="muted"></span>
+        <select id="auto-refresh" aria-label="Auto-refresh interval">
+          <option value="0">Auto: Off</option>
+          <option value="1">Every 1 min</option>
+          <option value="5" selected>Every 5 min</option>
+          <option value="10">Every 10 min</option>
+          <option value="15">Every 15 min</option>
+          <option value="30">Every 30 min</option>
+        </select>
+        <button id="refresh-weather" class="btn" type="button">↻ Refresh now</button>
+      </div>
+    </div>
+    <div class="stat-grid">
+      <div class="stat"><span class="stat-ico">🌡️</span><div><label>Average Temperature</label><strong id="average-temperature">-- °C</strong></div></div>
+      <div class="stat"><span class="stat-ico">🔥</span><div><label>Hottest</label><strong id="highest-temperature">-- °C</strong><small id="hottest-location">Loading...</small></div></div>
+      <div class="stat"><span class="stat-ico">❄️</span><div><label>Coolest</label><strong id="lowest-temperature">-- °C</strong><small id="coolest-location">Loading...</small></div></div>
+      <div class="stat"><span class="stat-ico">🌧️</span><div><label>Average Precipitation</label><strong id="average-precipitation">-- mm</strong></div></div>
+    </div>
+  </section>
+
+  <!-- ============ MAP ============ -->
+  <section class="glass map-section">
+    <div class="map-header">
+      <div>
+        <h2>Interactive Weather Map</h2>
+        <p>Hover a station for live conditions · click to open its full forecast above.</p>
+      </div>
+      <div class="map-tools">
+        <div class="map-search">
+          <div class="search-box"><span>🔍</span>
+            <input type="text" id="city-search" placeholder="Search city or station..." autocomplete="off">
+            <button id="clear-search" type="button" aria-label="Clear search">×</button>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+        <select id="province-filter" aria-label="Filter stations by province"><option value="all">All provinces</option></select>
+        <button id="reset-map" class="btn primary" type="button">⌂ Reset</button>
+      </div>
+    </div>
+    <button id="pinned-chip" class="pinned-chip" type="button" style="display:none"></button>
+    <div id="map"></div>
+  </section>
+
+  <!-- ============ STATION COMPARISON ============ -->
+  <section class="glass pad">
+    <div class="section-head">
+      <div><span class="badge">ANALYTICS</span><h2>Station Comparison</h2>
+      <p>Ranked comparison of the 15 most extreme stations right now.</p></div>
+      <div class="refresh-box">
+        <select id="weather-chart-type" aria-label="Metric">
+          <option value="temperature">Temperature (°C)</option>
+          <option value="humidity">Humidity (%)</option>
+          <option value="precipitation">Precipitation (mm)</option>
+          <option value="wind">Wind speed (km/h)</option>
+        </select>
+        <select id="weather-chart-order" aria-label="Order">
+          <option value="high">Highest first</option>
+          <option value="low">Lowest first</option>
+        </select>
+      </div>
+    </div>
+    <div class="chart-box"><canvas id="weather-chart"></canvas></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div><strong>Pakistan Web GIS</strong><span>Weather data: Open-Meteo · Maps: OpenStreetMap, CARTO &amp; Esri</span></div>
+  <span>© 2026 Pakistan Web GIS</span>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="js/utils.js"></script>
+<script src="js/map.js"></script>
+<script src="js/cities.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/forecast.js"></script>
+</body>
+</html>
